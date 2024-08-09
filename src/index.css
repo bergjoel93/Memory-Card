@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "grobold";
+  src: url("./src/assets/fonts/GROBOLD.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lucky";
+  src: url("./src/assets/fonts/LUCKY-TYPEWRITER.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cartoon";
+  src: url("./src/assets/fonts/SFCartoonistHand.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("./src/assets/images/background.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root {
+  height: 100%;
+}
+
+#bobsBurgersLogo {
+  background-image: url("./src/assets/images/logo.jpg");
+  width: 340px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
