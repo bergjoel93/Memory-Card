@@ -4,19 +4,19 @@
 
 @font-face {
   font-family: "grobold";
-  src: url("./fonts/GROBOLD.ttf") format("truetype");
+  src: url("/fonts/GROBOLD.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "lucky";
-  src: url("./fonts/LUCKY-TYPEWRITER.ttf") format("truetype");
+  src: url("/fonts/LUCKY-TYPEWRITER.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "cartoon";
-  src: url("./fonts/SFCartoonistHand.ttf") format("truetype");
+  src: url("/fonts/SFCartoonistHand.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  background-image: url("./images/background.jpg");
+  background-image: url("/images/background.jpg");
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ body {
 }
 
 #bobsBurgersLogo {
-  background-image: url("./images/logo.jpg");
+  background-image: url("/images/logo.jpg");
   width: 340px;
   height: 100px;
   background-position: center;

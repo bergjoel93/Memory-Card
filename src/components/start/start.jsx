@@ -11,8 +11,8 @@ export default function Start({ onStart }) {
         Start Game!
       </button>
       <div className="flex ">
-        <img className="w-50" src="./images/tina.gif" alt="tina gif" />
-        <img className="w-[200px]" src="./images/linda.gif"></img>
+        <img className="w-50" src="/images/tina.gif" alt="tina gif" />
+        <img className="w-[200px]" src="/images/linda.gif"></img>
       </div>
     </div>
   );

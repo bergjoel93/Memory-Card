@@ -6,7 +6,7 @@ import PlayGame from "./components/playGame/PlayGame";
 import End from "./components/end/End";
 
 function App() {
-  const [gameState, setGameState] = useState(1); // state variable for the state of the game.
+  const [gameState, setGameState] = useState(0); // state variable for the state of the game.
   const [win, setWin] = useState(false);
 
   function handleStart() {
